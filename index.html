@@ -1,18 +1,27 @@
+<!DOCTYPE html> 
 <html>
     <head>
         <title>Login and Registration Form</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="mainbox">
+        <div class="mainbox" style="font-family:Arial, Helvetica, sans-serif"> 
             <h1 style="text-align: center;">Login and Registration Form</h1>
             <div class="login">
+                <form action="" method="POST">
                 <h2>Login Here</h2>
-                <label>UserName</label>
-
+                <label>UserName  <br><br><input type="text" name="username" class="controller" required></label> <br><br>
+                <label>PassWord  <br><br><input type="text" name="password" class="controller" required></label> <br><br>
+                <input type="submit" value="Login" name="submit" class="submitcontroller">
+            </form>
             </div>
-            <div class="registration">
-
+            <div class="registration" >
+                <form action="">
+                <h2>Registration Here Here</h2>
+                <label>UserName  <br><br><input type="text" name="username" class="controller" required></label> <br><br>
+                <label>PassWord  <br><br><input type="text" name="password" class="controller" required></label> <br><br>
+                <input type="submit" value="Register" name="submit" class="submitcontroller">
+            </form>
             </div>
         </div>
     </body>
